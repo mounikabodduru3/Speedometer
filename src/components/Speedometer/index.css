@@ -1,0 +1,61 @@
+/* Write your CSS here */
+body {
+  font-family: roboto;
+}
+
+.container {
+  background-color: #07080c;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.heading {
+  color: #ffffff;
+  font-size: 40px;
+}
+
+.img {
+  height: 450px;
+  width: 800px;
+}
+.mini-headng {
+  color: #ffffff;
+  font-size: 30px;
+}
+
+.bottom-card {
+  text-align: center;
+}
+
+.desc {
+  color: #cbd5e1;
+  font-size: 24px;
+}
+
+.btnContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.accelarateBtn {
+  height: 40px;
+  width: 100px;
+  border-radius: 9px;
+  background-color: #0b69ff;
+  color: #cbd5e1;
+  border: none;
+  margin-right: 20px;
+}
+
+.breakBtn {
+  height: 40px;
+  width: 100px;
+  border-radius: 9px;
+  background-color: transparent;
+  color: #cbd5e1;
+  border-color: #cbd5e1;
+}
